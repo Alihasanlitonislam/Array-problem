@@ -34,13 +34,26 @@
 //     console.log(item)
 // }
 
-const name= ['ali hasan','liton islam','milon islam','saddem hosain','jonaeid islam','moklasah rhaman']
-var heightArray = 0;
+var name= ['ali hasan','liton islam','milon islam','saddem hosain','jonaeid islam','moklasah rhaman','shathi akther foiew']
+var heiIndex = 0;
 var index = null;
-for(i=0; i<name.length; i++){
-    if(name[i].length>heightArray){
-        heightArray = name[i].length;
+for(i=0;i<name.length;i++){
+    if(name[i].length>heiIndex){
+        heiIndex = name[i].length;
         index=i
     }
-    console.log(heightArray.index)
 }
+console.log(heiIndex,index)
+
+
+
+
+// var heightArray = 0;
+// var index = null;
+// for(i=0; i<name.length; i++){
+//     if(name[i].length>heightArray){
+//         heightArray = name[i].length;
+//         index=i
+//     }
+// }
+// console.log(heightArray,index)
